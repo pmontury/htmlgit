@@ -1,0 +1,52 @@
+/* Déclarations des font 'locales' */
+@font-face {
+    font-family: 'fragment_coreroman';
+    src: url('../font/fragmentcore-webfont.woff2') format('woff2'),
+         url('../font/fragmentcore-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'cursive_standardregular';
+    src: url('../font/cursive_standard-webfont.woff2') format('woff2'),
+         url('../font/cursive_standard-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'sfrregular';
+    src: url('../font/sfr-1.0-regular-webfont.woff2') format('woff2'),
+         url('../font/sfr-1.0-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sfrbold';
+    src: url('../font/sfr-1.0-bold-webfont.woff2') format('woff2'),
+         url('../font/sfr-1.0-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*----------*/
+/* LE DEBUT */
+/*----------*/
+body {
+	font: 'cursive_standardregular', 'fragment_coreroman', 'Titillium Web', 'sfrregular', 'sfrbold', sans-serif;
+	font: 400 16px/1.3 Verdana, Arial, sans-serif;
+/*	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.3;
+	font-family: Verdana, Arial, sans-serif; */
+	color: #000;
+	background-color: #fff;
+}
+
+
+
+
+/*---------*/
+/* THE END */
+/*---------*/
