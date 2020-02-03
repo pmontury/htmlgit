@@ -54,6 +54,7 @@ table {
 }
 
 /* Pour utlisation float sans inconvénient */
+/*  */
 .clear:before, .clear:after {
    content: ' ';
    display: table;
